@@ -1,0 +1,41 @@
+# SPDX-FileCopyrightText: Copyright (c) 2026 APN
+# SPDX-License-Identifier: MIT
+
+version = 1
+[[annotations]]
+path = [
+    ".DS_Store",
+    ".env*",
+    ".gitmodules",
+    ".golangci.yml",
+    "Dockerfile",
+    "Makefile",
+    "README.md",
+    "apn-server",
+    "docker-compose.yml",
+    "go.mod",
+    "go.sum",
+    "renovate.json",
+    "**.json",
+    "**.md",
+    "**.tar.gz",
+    "**.txt",
+    "**.yml",
+    "**/.DS_Store",
+    "**/.gitignore",
+    "**/.pdd",
+    "**/*.csv",
+    "**/*.jpg",
+    "**/*.json",
+    "**/*.md",
+    "**/*.pdf",
+    "**/*.png",
+    "**/*.svg",
+    "**/*.txt",
+    "**/*.vm",
+    "**/*.yml",
+    "**/Gemfile.lock",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "Copyright (c) 2026 APN"
+SPDX-License-Identifier = "MIT"
